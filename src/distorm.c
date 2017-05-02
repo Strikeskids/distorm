@@ -18,6 +18,8 @@ This library is licensed under the BSD license. See the file COPYING.
 #include "wstring.h"
 #include "../include/mnemonics.h"
 
+#include <stddef.h>
+
 /* C DLL EXPORTS */
 #ifdef SUPPORT_64BIT_OFFSET
 	_DLLEXPORT_ _DecodeResult distorm_decompose64(_CodeInfo* ci, _DInst result[], unsigned int maxInstructions, unsigned int* usedInstructionsCount)
